@@ -1,0 +1,77 @@
+.contatoFormSection h2,
+.entreEmContatoSection h2 {
+    font-family: 'Noto Serif', serif;
+    font-weight: 400;
+}
+
+.entreEmContatoSection p,
+.contatoFormSection input,
+.contatoFormSection label {
+    font-family: 'Roboto', sans-serif;
+    font-size: small;
+    font-weight: bold;
+    line-height: 25px;
+}
+
+.entreEmContatoSection__rightBlock {
+    margin-left: 80px;
+}
+
+.entreEmContatoSection__icons {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.entreEmContatoSection__upBar {
+    border: 1px solid rgb(238, 238, 238);
+    margin: 30px 40px 0px 40px;
+}
+
+.entreEmContatoSection {
+    display: flex;
+    justify-content: center;
+    margin: 40px;
+}
+
+.contatoFormSection {
+    display: flex;
+    justify-content: center;
+    margin: 40px;
+}
+
+.contatoFormSection__rightBlock {
+    display: flex;
+    flex-direction: column;
+    margin-left: 60px;
+}
+
+.contatoFormSection input {
+    all: unset;
+    padding: 5px 10px;
+    border: 1px solid black
+}
+
+.contatoFormSection input:focus {
+    box-shadow: 0px 4px 24px 0px #1A3C40;
+}
+
+input#form-name,
+input#form-email {
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 8px;
+    width: 150px;
+    background-color: #1A3C40;
+    border: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: small;
+    color: whitesmoke;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #4aa6b1;
+}
