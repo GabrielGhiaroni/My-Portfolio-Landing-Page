@@ -1,0 +1,103 @@
+.heroSection {
+    background-image: url(/assets/home/image-homepage-hero.jpg);
+    background-position: center;
+    height: 700px;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+
+}
+
+.heroSection__whiteBlock {
+    background-color: rgb(241, 236, 236);
+    height: 170px;
+    width: 350px;
+    font-family: 'Nunito Sans', sans-serif;
+    color: rgb(58, 56, 56);
+    padding: 40px 50px;
+}
+
+.heroSection__aboutMeButton a {
+    background-color: rgb(3, 12, 44);
+    display: flex;
+    padding: 10px;
+    max-width: 180px;
+    font-family: 'Mulish', sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: small;
+    text-decoration: none;
+    margin-top: 30px;
+}
+
+.heroSection__aboutMeButton a:hover {
+    background-color: rgb(39, 123, 144);
+    display: flex;
+    padding: 10px;
+    max-width: 180px;
+    font-family: 'Mulish', sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: small;
+    text-decoration: none;
+    margin-top: 30px;
+}
+
+.heroSection__aboutMeButton img {
+    margin-left: 20px;
+    margin-right: 45px;
+}
+
+.aboutMeSection {
+    padding: 10px 20px;
+    color: rgb(32, 32, 32);
+}
+
+.aboutMeSection h2 {
+    text-align: center;
+    padding: 40px 0px 40px 0px;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+
+.aboutMeSection__imagesAndText {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.aboutMeSection img {
+    max-height: 100px;
+    padding: 25px;
+}
+
+
+.aboutMeSection__imagesAndText__devFullStack,
+.aboutMeSection__imagesAndText__front-end,
+.aboutMeSection__imagesAndText__back-end {
+    text-align: center;
+    line-height: 30px;
+    margin-bottom: 80px;
+}
+
+.aboutMeSection__imagesAndText__devFullStack h3 {
+    font-family: 'Mulish', sans-serif;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.aboutMeSection__imagesAndText__devFullStack h3,
+.aboutMeSection__imagesAndText__front-end h3,
+.aboutMeSection__imagesAndText__back-end h3 {
+    font-family: 'Mulish', sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    color: #1D5C63;
+}
+
+.aboutMeSection__imagesAndText__devFullStack h4,
+.aboutMeSection__imagesAndText__front-end h4,
+.aboutMeSection__imagesAndText__back-end h4 {
+    font-family: 'Mulish', sans-serif;
+    font-style: italic;
+    font-weight: 400;
+    color: #1A3C40;
+}

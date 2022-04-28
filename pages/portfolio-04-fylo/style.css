@@ -1,0 +1,158 @@
+.heroSection {
+    background-image: url(/assets/portfolio/fylo/image-fylo-hero.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 700px;
+    margin: 40px
+}
+
+.mainSection {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 40px
+}
+
+.asideDescription {
+    text-align: center;
+    margin-right: 80px;
+}
+
+.asideDescription h2 {
+    margin-top: 40px;
+    margin-bottom: 30px;
+    color: #1A3C40;
+    font-family: 'Noto Serif', serif;
+    font-weight: 400;
+    font-size: 40px;
+}
+
+.asideDescription__upBar,
+.asideDescription__downBar {
+    border: 1px solid rgb(238, 238, 238);
+}
+
+.asideDescription__downBar {
+    margin-top: 70px;
+    margin-bottom: 40px;
+
+}
+
+.asideDescription p {
+    font-family: 'Mulish', sans-serif;
+    font-style: italic;
+    font-weight: 400;
+    margin-bottom: 60px;
+}
+
+.asideDescription__link a {
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: small;
+    border: 1px solid rgb(32, 32, 32);
+    padding: 15px 30px;
+    color: #1A3C40;
+}
+
+.asideDescription__link a:hover {
+    color: rgb(36, 138, 133);
+}
+
+.previewsEstaticos {
+    display: flex;
+    flex-direction: column;
+}
+
+.previewsEstaticos h3 {
+    font-family: 'Mulish', sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    margin-bottom: 40px;
+    color: #1A3C40;
+}
+
+.previewsEstaticos img {
+    max-width: 400px;
+}
+
+.preview-1 {
+    margin-bottom: 10px;
+}
+
+.linksSection {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 60px;
+}
+
+.linksSection__rightBlock {
+    display: flex;
+    align-items: center;
+}
+
+.linksSection__right {
+    margin-right: 20px;
+}
+
+.linksSection__leftBlock {
+    display: flex;
+    align-items: center;
+}
+
+.linksSection__left {
+    margin-left: 20px;
+}
+
+.linksSection__left h2,
+.linksSection__right h2 {
+    color: #1A3C40;
+    font-family: 'Noto Serif', serif;
+    font-weight: 400;
+    font-size: 30px;
+}
+
+
+.linksSection__left a,
+.linksSection__right a {
+    text-decoration: none;
+}
+
+.linksSection__left p {
+    font-family: 'Mulish', sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 12px;
+    color: gray;
+}
+
+.linksSection__right p {
+    font-family: 'Mulish', sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 12px;
+    text-align: end;
+    color: gray;
+}
+
+.linksSection__left h2:hover,
+.linksSection__right h2:hover {
+    color: #1D5C63;
+}
+
+.linksSection__left p:hover,
+.linksSection__right p:hover {
+    color: #1D5C63;
+}
+
+.linksSection__upBar {
+    border: 1px solid rgb(238, 238, 238);
+    margin: 60px;
+}
+
+.linksSection__downBar {
+    border: 1px solid rgb(238, 238, 238);
+    margin: 60px;
+}
